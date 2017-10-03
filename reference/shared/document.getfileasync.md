@@ -1,4 +1,4 @@
-
+|
 # Document.getFileAsync method
 Returns the entire document file in slices of up to 4194304 bytes (4 MB). For add-ins for iOS, file slice is supported up to 65536 (64 KB). Note that specifying file slice size of above permitted limit will result in an "Internal Error" failure. 
 
@@ -32,7 +32,7 @@ Office.context.document.getFileAsync(fileType [, options], callback);
 |Excel Online, Win32, Mac, and iOS|Office.FileType.Compressed|
 |PowerPoint on Windows desktop, Mac, and iPad, and PowerPoint Online|Office.FileType.Compressed, Office.FileType.Pdf|
 |Word on Windows desktop, Word on Mac, and Word Online|Office.FileType.Compressed, Office.FileType.Pdf, Office.FileType.Text|
-Word on iPad|Office.FileType.Compressed, Office.FileType.Text|
+|Word on iPad|Office.FileType.Compressed, Office.FileType.Text|
 
 ## Callback value
 
